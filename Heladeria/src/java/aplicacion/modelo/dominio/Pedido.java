@@ -15,7 +15,7 @@ public class Pedido {
   private int ncliente;
   private Date fecha;
   private int cantidad;
-  private String tipoprod;
+  private String formdpago;
   private String tipoentr;
   private int codconfirmacion;
 
@@ -26,7 +26,7 @@ public class Pedido {
         this.ncliente = ncliente;
         this.fecha = fecha;
         this.cantidad = cantidad;
-        this.tipoprod = tipoprod;
+        this.formdpago = tipoprod;
         this.tipoentr = tipoentr;
         this.codconfirmacion = codconfirmacion;
     }
@@ -76,15 +76,15 @@ public class Pedido {
     /**
      * @return the tipoprod
      */
-    public String getTipoprod() {
-        return tipoprod;
+    public String getformdpago() {
+        return formdpago;
     }
 
     /**
-     * @param tipoprod the tipoprod to set
+     * @param formdpago the tipoprod to set
      */
-    public void setTipoprod(String tipoprod) {
-        this.tipoprod = tipoprod;
+    public void setformdpago(String formdpago) {
+        this.formdpago = formdpago;
     }
 
     /**

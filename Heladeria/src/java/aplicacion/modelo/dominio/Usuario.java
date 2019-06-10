@@ -9,9 +9,9 @@ package aplicacion.modelo.dominio;
  *
  * @author marii
  */
-public class Cliente {
+public class Usuario {
     
-    private int ncliente;
+    private int tipodeusuario;
     private String nombre;
     private String apellido;
     private int dni;
@@ -21,8 +21,8 @@ public class Cliente {
     private int celular;
     private String email;
 
-    public Cliente(int ncliente, String nombre, String apellido, int dni, int edad, String domicilio, int telefono, int celular, String email) {
-        this.ncliente = ncliente;
+    public Usuario(int tipodeusuario, String nombre, String apellido, int dni, int edad, String domicilio, int telefono, int celular, String email) {
+        this.tipodeusuario = tipodeusuario;
         this.nombre = nombre;
         this.apellido = apellido;
         this.dni = dni;
@@ -33,21 +33,21 @@ public class Cliente {
         this.email = email;
     }
 
-    public Cliente() {
+    public Usuario() {
     }
 
     /**
      * @return the ncliente
      */
-    public int getNcliente() {
-        return ncliente;
+    public int getTipodeusuario() {
+        return tipodeusuario;
     }
 
     /**
-     * @param ncliente the ncliente to set
+     * @param tipodeusuario the ncliente to set
      */
-    public void setNcliente(int ncliente) {
-        this.ncliente = ncliente;
+    public void setTipodeusuario(int tipodeusuario) {
+        this.tipodeusuario = tipodeusuario;
     }
 
     /**

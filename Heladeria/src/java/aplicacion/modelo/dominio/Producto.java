@@ -11,7 +11,7 @@ package aplicacion.modelo.dominio;
  */
 public class Producto {
     private String nombre;
-    private String tipo;
+    private String categoria;
     private int precio;
     private int stock;
 
@@ -20,7 +20,7 @@ public class Producto {
 
     public Producto(String nombre, String tipo, int precio, int stock) {
         this.nombre = nombre;
-        this.tipo = tipo;
+        this.categoria = categoria;
         this.precio = precio;
         this.stock = stock;
     }
@@ -42,15 +42,15 @@ public class Producto {
     /**
      * @return the tipo
      */
-    public String getTipo() {
-        return tipo;
+    public String getCategoria() {
+        return categoria;
     }
 
     /**
      * @param tipo the tipo to set
      */
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
+    public void setCategoria(String tipo) {
+        this.categoria = categoria;
     }
 
     /**
